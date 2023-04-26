@@ -38,14 +38,14 @@
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
-// Console.WriteLine("Input number");
-// int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input number");
+int n = Convert.ToInt32(Console.ReadLine());
 
-// if (n % 2==0)
-// {
-//     Console.WriteLine($"{n} -> yes");
-// }
-// else
-// {
-//     Console.WriteLine($"{n} -> no");
-// }
+if (n % 2==0)
+{
+    Console.WriteLine($"{n} -> yes");
+}
+else
+{
+    Console.WriteLine($"{n} -> no");
+}
